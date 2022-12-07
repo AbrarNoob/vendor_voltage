@@ -157,7 +157,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/voltage/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/voltage/overlay/common
 
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/vtage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/voltage/config/device_framework_matrix.xml
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
